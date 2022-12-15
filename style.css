@@ -117,12 +117,13 @@
   
   .footer-list{
     padding: 5px 250px 5px 250px;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    max-width: 1440px;
   }
   
   
