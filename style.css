@@ -1,7 +1,7 @@
 /*------------------------------Ко всему----------------------------------------------*/
 @font-face {
     font-family: "Heebo";
-    src: url("assets/fonts/Heebo-VariableFont_wght.ttf");
+    src: url(./fonts/Heebo-VariableFont_wght.ttf);
     font-weight: 300; /*для указывания толщины*/
   }
   
