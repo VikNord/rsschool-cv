@@ -1,0 +1,129 @@
+/*------------------------------Ко всему----------------------------------------------*/
+@font-face {
+    font-family: "Heebo";
+    src: url(./fonts/Heebo-VariableFont_wght.ttf);
+    font-weight: 300; /*для указывания толщины*/
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  /*----------------------------------HEADER----------------------------------------------------*/
+  header{
+    background-color: rgb(28, 209, 149);
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  
+  /*отмена точек от ul смена цвета у ссылок*/
+  .nav-item a {
+    color: #d64506;
+    text-decoration: none;  
+    transition: color 1s;
+  }
+  .nav-item a:hover {
+    color: #000000;
+  }
+  
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  /*--------------------------------------------BODY----------------------------------*/
+   body{  
+    /*шрифты*/
+    font-family: "Heebo",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    /*прижатие footer к низу*/
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+  
+   .summary-text{
+   padding: 5px 40px 5px 40px;
+   }
+  
+   .container-profile{
+    text-align: center;
+   }
+  
+   .section-title-h1 {
+    color: rgb(182, 198, 96);
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-style: italic;
+  }
+  .list {
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  
+  /*размещение секций по горизонтали с возможностью переноса на след.строку*/
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /*секция занимает 50%строки*/
+  .section {
+    width: 50%;
+    border: 1px outset rgba(206, 25, 25, 0.984);
+  }
+  
+  /*Пример стилизации заголовков:*/
+  .section-title {
+    color: rgb(50, 197, 175);
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  /*----------------------------------------FOOTER----------------------------------------------*/
+  footer{
+    background-color: rgb(22, 216, 197);
+  }
+  
+  .footer-list{
+    padding: 5px 250px 5px 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    max-width: 1440px;
+  }
+  
+  
