@@ -112,7 +112,8 @@
   
   /*----------------------------------------FOOTER----------------------------------------------*/
   footer{
-    background-color: rgb(22, 216, 197);
+    /*background-color: rgb(22, 216, 197);*/
+    background-repeat:#aaa;
   }
   
   .footer-list{
