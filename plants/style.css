@@ -1,0 +1,331 @@
+/*@font-face {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/Inika-Regular.ttf);
+
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+
+  }*/
+
+  html {
+    scroll-behavior: smooth; 
+  }
+  
+  .header{
+    
+    height: 134px;
+    max-width: 1440px;
+    /*border: 1px solid red;*/
+    background-color: #EDF2EC;
+    margin: 0 auto;
+    
+
+    
+  }
+ .header-logo{
+  padding-left: 111px;
+  
+ }
+  .navbar{
+    
+    width: 1220px;
+    height: 50px;
+    
+  }
+
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 18px;
+    
+}
+.nav-link{
+  text-decoration: none;
+  padding-right: 45px;
+}
+
+
+.wrap_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*flex-wrap: wrap;*/
+  align-items: center;
+    
+}
+
+
+
+
+.main{
+    font-family: "Inika" Arial, sans-serif;
+    font-size: 20px;
+
+    max-width: 1440px;
+    min-height: 100vh; 
+    margin: 0 auto;
+
+    
+
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;*/
+}
+
+
+
+/*----------------Welcome----------------------*/
+.welcome{
+  /*display: flex;*/
+ /* justify-content: space-between;
+  border: 1px solid red;*/
+  background: #EDF2EC;
+  height: 532px;
+}
+.welcome_button{
+    height: 44px;
+    width: 158px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    margin-top: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: rgba(237, 242, 236, 1);
+}
+
+
+.welcome_leafs_img{
+padding-left: 109px;
+padding-top: 62px
+}
+
+.welcome-rigth{
+  width: 549px;
+  height: 340px;
+}
+
+.welcome_title{
+  width: 549px;
+  height: 101px;
+  padding-top: 98px;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 50px;
+
+color: #717171;
+}
+
+.welcome_green_text_title{
+  color: #499A18;
+}
+
+/*-----------------About----------------------*/
+
+
+
+.about_title{
+width: 463px;
+height: 102px;
+padding-left: 109px;
+padding-top: 161px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #499A18;
+}
+
+.about_red_text_title{
+  color: #E06733;
+}
+
+.about-text{
+  width: 605px;
+  height: 208px;
+  padding-left: 109px;
+  /*padding-top: 303px;*/
+  margin: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+
+
+
+
+
+/*-------------------Service------------------------*/
+
+.service{
+  display: flex;
+ /* justify-content: space-between;
+  border: 1px solid red;*/
+  background-color: #EDF2EC;
+}
+
+.service_title{
+  color: #499A18;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 189px;
+  width: 306px;
+  height: 94px;
+  line-height: 52px;
+}
+
+.services_btns{
+  display: flex;
+  justify-content: space-between;
+  width: 559px;
+  height: 50px;
+  padding-left: 557px;
+  /*padding-top: 69px;*/
+  list-style: none;
+  
+
+}
+
+.button{
+    color: #E06733;
+    border: 1px solid rgba(224, 103, 51, 1);
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 5px;
+    height: 50px;
+    width: 161px;
+    text-align: center;
+    background: rgba(237, 242, 236, 1);
+}
+
+
+
+.services_list{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.services_item{
+  padding: 55px 126px 55px 10px;
+  list-style: none;
+}
+
+
+
+
+
+/*---------------------Prices---------------------------*/
+.prices{
+  /*border: 1px solid red;*/
+  height: 560px;
+}
+
+
+
+
+
+
+
+
+/*--------------------------Contacts---------------------*/
+
+
+
+.wrap_container_contacts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ /* flex-wrap: wrap;*/
+ background-color: #EDF2EC;
+    
+}
+
+
+
+.contacts_title{
+text-align: center;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #499A18
+}
+
+
+.rectangle{
+  width:450px;
+  height:50px;
+  background-color: #D6E7D2;
+  align-self: flex-end;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------footer--------------------------------*/
+.footer{
+  height: 130px;
+  max-width: 1440px;
+ /* border: 1px solid red;*/
+  margin: 0 auto;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*flex-wrap: wrap;*/
+  align-items: center;
+    
+}
+
+.link_to_Stage0{
+  font-size: 20px;
+}
+
+
+.footer-item{
+  display: inline-block;
+  padding-right: 20px;
+  
+}
+
+.footer_link{
+  text-decoration: none;
+  color: black;
+}
+
