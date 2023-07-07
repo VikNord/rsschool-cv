@@ -1,14 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV2. HTML, CSS &amp; Git Basics</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./icons8-добавить-закладку-16.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
 </head>
 <body>
-<header></header>
-<main></main>
-<footer></footer>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Work Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container profile-container">
+      <section class="profile-section" id="profile">
+        <h2 class="section-title">Profile</h2>
+      <p>Date of birth: 22th,August,1996<br>
+        Location:Grodno,Belarus<br></p>
+      </section>
+      <section class="profile-section my-photo-1">
+        <h1>Uladzislau Shapialiou</h1>
+        <img src="./1652235714_41-kartinkin-net-p-prikolnie-kartinki-dlya-stima-44.jpg" alt="my-photo">
+      </section>
+      <section class="profile-section" id="contact">
+        <h2 class="section-title">Contact Information:</h2>
+        <p>Discord: Vlad1901#1438<br>
+          Telegram: Uladzislau Shapialiou<br>
+          E-mail: vikingnorway96@gmail.com<br>
+          <a href="https://github.com/VikNord">GitHub: VikNord</a>
+        </p>
+      </section>
+    </div>
+    <div class="container main-container">
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          Hello. I am Vlad. I live in Belarus. I used to work as a concrete carpenter. About six months ago I decided that I wanted to become a web developer and started learning HTML and CSS. I hope that this desire will not leave me and I will really become a good and useful employee in the future.</p>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul>
+          <li>Studied at course Stage 0 (Rolling Scopes School)</li>
+          <li>Video courses (HTML,CSS,JAVASCRIPT) on YouTube channel</li>
+          <li>JavaScript(learn.javascript.ru)</li>
+        </ul>
+      </section>
+      <section class="section" id="work">
+        <h2 class="section-title">Work Experience</h2>
+        <p>Unfortunately i have not experience yet...</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>Figma</li>
+          <li>Git</li>
+          <li>Photoshop</li>
+          <li>CodeWars 7-8 kui</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <p><code>function nicknameGenerator(name){<br>
+          if (name.length &lt; 3) {<br>
+            return "Error: Name too short";<br>
+            } else if (name[2] == "a" || name[2] == "e" || name[2] == "i" || name[2] == "o" || name[2] == "u"){<br>
+            return (name.slice(0,4));<br>
+            } else  if (name[2] != "a" || name[2] != "e" || name[2] != "i" ||name[2] != "o" || name[2] != "u"){<br>
+            return (name.slice(0,3));<br>
+          }  
+        }</code></p>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Russian: Native</li>
+          <li>English: A2</li>
+          <li>Swedish: A1</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>2023 by <a class="git-link" href="https://github.com/VikNord">VikNord</a></p>
+      <div>
+        <a href="https://rs.school/js-stage0/"><img class="rsschool-img" src="./logo-rsschool3.png" alt="rsschool-logo"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
